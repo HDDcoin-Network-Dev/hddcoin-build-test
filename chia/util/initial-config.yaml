@@ -103,8 +103,8 @@ private_ssl_ca:
   key: "config/ssl/ca/private_ca.key"
 
 chia_ssl_ca:
-  crt: "config/ssl/ca/chia_ca.crt"
-  key: "config/ssl/ca/chia_ca.key"
+  crt: "config/ssl/ca/hddcoin_ca.crt"
+  key: "config/ssl/ca/hddcoin_ca.key"
 
 
 daemon_ssl:
@@ -198,8 +198,8 @@ harvester:
     key: "config/ssl/ca/private_ca.key"
 
   chia_ssl_ca:
-    crt: "config/ssl/ca/chia_ca.crt"
-    key: "config/ssl/ca/chia_ca.key"
+    crt: "config/ssl/ca/hddcoin_ca.crt"
+    key: "config/ssl/ca/hddcoin_ca.key"
 
 pool:
   # Replace this with a real receive address
